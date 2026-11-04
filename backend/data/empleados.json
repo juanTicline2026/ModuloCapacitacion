@@ -1,0 +1,58 @@
+[
+  {
+    "id": "emp-001",
+    "nombre": "Carlos Mendoza",
+    "email": "carlos.mendoza@empresa.com",
+    "departamento": "Operaciones",
+    "puesto": "Supervisor de Planta"
+  },
+  {
+    "id": "emp-002",
+    "nombre": "María García",
+    "email": "maria.garcia@empresa.com",
+    "departamento": "Recursos Humanos",
+    "puesto": "Coordinadora de RH"
+  },
+  {
+    "id": "emp-003",
+    "nombre": "Roberto Sánchez",
+    "email": "roberto.sanchez@empresa.com",
+    "departamento": "Tecnología",
+    "puesto": "Desarrollador Senior"
+  },
+  {
+    "id": "emp-004",
+    "nombre": "Ana López",
+    "email": "ana.lopez@empresa.com",
+    "departamento": "Ventas",
+    "puesto": "Ejecutiva Comercial"
+  },
+  {
+    "id": "emp-005",
+    "nombre": "Fernando Ruiz",
+    "email": "fernando.ruiz@empresa.com",
+    "departamento": "Operaciones",
+    "puesto": "Técnico de Mantenimiento"
+  },
+  {
+    "id": "emp-006",
+    "nombre": "Laura Martínez",
+    "email": "laura.martinez@empresa.com",
+    "departamento": "Administración",
+    "puesto": "Contadora"
+  },
+  {
+    "id": "emp-007",
+    "nombre": "Diego Torres",
+    "email": "diego.torres@empresa.com",
+    "departamento": "Tecnología",
+    "puesto": "Analista de Sistemas"
+  },
+  {
+    "id": "emp-008",
+    "nombre": "Patricia Flores",
+    "email": "patricia.flores@empresa.com",
+    "departamento": "Recursos Humanos",
+    "puesto": "Especialista en Capacitación"
+  }
+]

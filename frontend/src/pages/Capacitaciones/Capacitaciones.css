@@ -1,0 +1,355 @@
+/* ============ CAPACITACIONES ============ */
+.cap-card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cap-card-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.cap-card-icon.seguridad { background: rgba(239, 68, 68, 0.1); color: var(--error); }
+.cap-card-icon.tecnologia { background: rgba(59, 130, 246, 0.1); color: var(--info); }
+.cap-card-icon.liderazgo { background: rgba(168, 85, 247, 0.1); color: var(--secondary); }
+.cap-card-icon.default { background: rgba(108, 99, 255, 0.1); color: var(--primary); }
+
+.cap-card-actions {
+  display: flex;
+  gap: var(--space-xs);
+}
+
+.cap-detail-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+.cap-detail-back {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+.cap-detail-back:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+/* ============ EXAMEN BUILDER ============ */
+.exam-builder {
+  margin-top: var(--space-xl);
+}
+
+.exam-builder-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-lg);
+}
+
+/* ============ QUESTION CARD (RECUADRO DE PREGUNTA) ============ */
+.question-card {
+  background: rgba(22, 22, 42, 0.95);
+  border: 2px solid rgba(108, 99, 255, 0.4);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  margin-bottom: var(--space-lg);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(108, 99, 255, 0.12);
+  transition: all var(--transition-base);
+  animation: fadeIn 0.35s ease forwards;
+}
+
+.question-card:hover, .question-card:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 8px 35px rgba(0, 0, 0, 0.5), 0 0 30px rgba(108, 99, 255, 0.25);
+}
+
+.question-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.question-number {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: white;
+  background: var(--primary-gradient);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  box-shadow: 0 0 10px var(--primary-glow);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.option-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+  background: rgba(15, 15, 26, 0.6);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.option-radio {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+  position: relative;
+}
+
+.option-radio:checked {
+  border-color: var(--success);
+  background: var(--success);
+}
+
+.option-radio:checked::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.option-input {
+  flex: 1;
+}
+
+.exam-settings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+/* ============ STEP BANNER ============ */
+.step-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md) var(--space-lg);
+  margin-bottom: var(--space-lg);
+  backdrop-filter: blur(12px);
+}
+
+.step-banner-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  opacity: 0.5;
+  transition: all var(--transition-normal);
+}
+
+.step-banner-item.active {
+  opacity: 1;
+}
+
+.step-banner-item.completed {
+  opacity: 0.9;
+}
+
+.step-number {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.step-banner-item.active .step-number {
+  background: var(--primary-gradient);
+  color: white;
+  box-shadow: 0 0 12px var(--primary-glow);
+}
+
+.step-banner-item.completed .step-number {
+  background: rgba(16, 185, 129, 0.2);
+  color: var(--success);
+  border: 1px solid var(--success);
+}
+
+.step-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.step-title {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+}
+
+.step-desc {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.step-connector {
+  flex: 1;
+  height: 2px;
+  background: var(--border-color);
+  margin: 0 var(--space-md);
+  transition: all var(--transition-normal);
+}
+
+.step-connector.active {
+  background: var(--primary);
+}
+
+/* ============ RECUADRO DE ASIGNACION DE TRABAJADORES ============ */
+.assignment-section-box {
+  background: rgba(20, 20, 38, 0.95);
+  border: 2px solid rgba(168, 85, 247, 0.45);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-2xl);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 25px rgba(168, 85, 247, 0.15);
+}
+
+.assignment-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--border-color);
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.asig-employee-list-scrollable {
+  max-height: 380px;
+  overflow-y: scroll;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  background: rgba(12, 12, 22, 0.8);
+  margin-top: var(--space-xs);
+}
+
+/* Barra lateral de desplazamiento personalizada */
+.asig-employee-list-scrollable::-webkit-scrollbar {
+  width: 10px;
+}
+
+.asig-employee-list-scrollable::-webkit-scrollbar-track {
+  background: rgba(15, 15, 26, 0.8);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+}
+
+.asig-employee-list-scrollable::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--primary) 0%, var(--secondary) 100%);
+  border-radius: var(--radius-full);
+  border: 2px solid rgba(15, 15, 26, 0.8);
+}
+
+.asig-employee-list-scrollable::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-light);
+}
+
+.employee-row-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem var(--space-lg);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.06);
+  transition: background var(--transition-fast);
+}
+
+.employee-row-item:hover {
+  background: rgba(108, 99, 255, 0.08);
+}
+
+.employee-row-item:last-child {
+  border-bottom: none;
+}
+
+/* ============ AREA SELECTOR & FILTERS ============ */
+.asig-area-selector {
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-sm);
+}
+
+.asig-area-label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.asig-area-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-sm);
+}
+
+.asig-chip {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-color);
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.asig-chip:hover {
+  border-color: var(--primary-light);
+  color: var(--text-primary);
+}
+
+.asig-chip.active {
+  background: var(--primary-gradient);
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 0 12px var(--primary-glow);
+}
+
+.asig-chip.area-all-selected {
+  border-color: var(--success);
+}
+
+.asig-area-quick-actions {
+  background: rgba(108, 99, 255, 0.08);
+  border: 1px solid rgba(108, 99, 255, 0.2);
+  border-radius: var(--radius-md);
+  padding: var(--space-xs) var(--space-md);
+  margin-bottom: var(--space-sm);
+}

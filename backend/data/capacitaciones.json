@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0ae7fab5-6c38-405e-8537-d0499cea3c57",
+    "titulo": "Capacitación: evaluacion identificador",
+    "descripcion": "test",
+    "categoria": "General",
+    "duracionEstimada": 60,
+    "estado": "activa",
+    "tieneExamen": true,
+    "creadoEn": "2026-09-16T21:07:48.146Z"
+  },
+  {
+    "id": "e11542aa-4bf8-42ad-9ad9-60b578844d63",
+    "titulo": "Capacitación: evaluacion 2",
+    "descripcion": "test5",
+    "categoria": "General",
+    "duracionEstimada": 60,
+    "estado": "activa",
+    "tieneExamen": true,
+    "creadoEn": "2026-09-16T21:14:59.186Z"
+  },
+  {
+    "id": "b377c0f3-2311-4d99-a8d6-2e5c94978c6e",
+    "titulo": "Capacitación: evaluacion prueba",
+    "descripcion": "test",
+    "categoria": "General",
+    "duracionEstimada": 60,
+    "estado": "activa",
+    "tieneExamen": true,
+    "creadoEn": "2026-09-16T21:19:44.830Z"
+  },
+  {
+    "id": "f9384b57-ddc6-4be5-8d77-de40543eae7f",
+    "titulo": "Capacitación: evaluacion prueba",
+    "descripcion": "test",
+    "categoria": "General",
+    "duracionEstimada": 60,
+    "estado": "activa",
+    "tieneExamen": true,
+    "examenId": "3013fcb2-cd4c-4c71-8983-121169a337db",
+    "creadoEn": "2026-09-17T21:28:55.488Z"
+  },
+  {
+    "id": "202ae3a5-9f79-4ff7-9e0e-9c897a4d7658",
+    "titulo": "Capacitación: evaluacion prueba",
+    "descripcion": "test",
+    "categoria": "General",
+    "duracionEstimada": 60,
+    "estado": "activa",
+    "tieneExamen": true,
+    "examenId": "3013fcb2-cd4c-4c71-8983-121169a337db",
+    "creadoEn": "2026-09-17T21:35:08.918Z"
+  }
+]

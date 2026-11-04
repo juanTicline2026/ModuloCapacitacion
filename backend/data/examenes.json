@@ -1,0 +1,134 @@
+[
+  {
+    "id": "49729731-a4b0-4c33-91a6-b7683db5dfdd",
+    "capacitacionId": "e11542aa-4bf8-42ad-9ad9-60b578844d63",
+    "titulo": "evaluacion test 2",
+    "tiempoLimite": 30,
+    "aprobacionMinima": 70,
+    "preguntas": [
+      {
+        "id": "3a899bf5-ac95-4853-8053-0dc517ad26dc",
+        "texto": "espacio para la pregunta",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 0
+      },
+      {
+        "id": "f9d839b4-308a-4a22-95b0-42a6529f0647",
+        "texto": "espacio pregunta 2",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 1
+      },
+      {
+        "id": "114230d6-b6f8-4088-bbfa-351386297422",
+        "texto": "espacio pregunta 3",
+        "opciones": [
+          "2",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 2
+      }
+    ],
+    "creadoEn": "2026-09-15T15:33:56.958Z",
+    "actualizadoEn": "2026-09-16T21:14:59.189Z"
+  },
+  {
+    "id": "87ad3046-6e64-4c01-8c41-e47caab77b97",
+    "capacitacionId": "0ae7fab5-6c38-405e-8537-d0499cea3c57",
+    "titulo": "evaluacion 3",
+    "tiempoLimite": 30,
+    "aprobacionMinima": 70,
+    "preguntas": [
+      {
+        "id": "e66295e2-e38b-40a4-ab82-9d4f503cdf0a",
+        "texto": "preuntas test",
+        "opciones": [
+          "1",
+          "3",
+          "4",
+          "4"
+        ],
+        "respuestaCorrecta": 0
+      },
+      {
+        "id": "0c2f4a3f-3218-4ee9-bade-a4551bdf9d99",
+        "texto": "test 2",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 1
+      },
+      {
+        "id": "16d3e88d-9ef2-43b8-bfe8-a1563b9d4be8",
+        "texto": "test 3",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 2
+      }
+    ],
+    "creadoEn": "2026-09-15T15:40:03.344Z",
+    "actualizadoEn": "2026-09-16T21:07:48.148Z"
+  },
+  {
+    "id": "3013fcb2-cd4c-4c71-8983-121169a337db",
+    "capacitacionId": "b377c0f3-2311-4d99-a8d6-2e5c94978c6e",
+    "titulo": "evaluacion prueba",
+    "tiempoLimite": 30,
+    "aprobacionMinima": 70,
+    "preguntas": [
+      {
+        "id": "87d29e54-34f3-4e0e-a959-9c843b33c7df",
+        "texto": "1",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 0
+      },
+      {
+        "id": "76f52c17-dd21-4991-9780-f32b541ff016",
+        "texto": "2",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 1
+      },
+      {
+        "id": "b9f7185e-5bb1-440f-a202-8129452ad909",
+        "texto": "3",
+        "opciones": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "respuestaCorrecta": 2
+      }
+    ],
+    "creadoEn": "2026-09-16T21:19:22.506Z",
+    "actualizadoEn": "2026-09-16T21:19:44.832Z"
+  }
+]

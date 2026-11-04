@@ -1,0 +1,109 @@
+[
+  {
+    "id": "88e3ab74-f4d9-4caf-9c61-9f101e82f61d",
+    "empleadoId": "emp-003",
+    "capacitacionId": "0ae7fab5-6c38-405e-8537-d0499cea3c57",
+    "estado": "aprobada",
+    "fechaAsignacion": "2026-09-16T21:08:42.946Z",
+    "resultado": {
+      "puntaje": 100,
+      "correctas": 3,
+      "totalPreguntas": 3,
+      "detalle": [
+        {
+          "preguntaId": "e66295e2-e38b-40a4-ab82-9d4f503cdf0a",
+          "respuestaUsuario": 0,
+          "respuestaCorrecta": 0,
+          "esCorrecta": true
+        },
+        {
+          "preguntaId": "0c2f4a3f-3218-4ee9-bade-a4551bdf9d99",
+          "respuestaUsuario": 1,
+          "respuestaCorrecta": 1,
+          "esCorrecta": true
+        },
+        {
+          "preguntaId": "16d3e88d-9ef2-43b8-bfe8-a1563b9d4be8",
+          "respuestaUsuario": 2,
+          "respuestaCorrecta": 2,
+          "esCorrecta": true
+        }
+      ],
+      "fechaCompletado": "2026-09-16T21:08:49.695Z"
+    }
+  },
+  {
+    "id": "1a3e108a-8cd4-4fbe-b1a0-069471db69b1",
+    "empleadoId": "emp-002",
+    "capacitacionId": "0ae7fab5-6c38-405e-8537-d0499cea3c57",
+    "estado": "reprobada",
+    "fechaAsignacion": "2026-09-16T21:20:06.269Z",
+    "resultado": {
+      "puntaje": 67,
+      "correctas": 2,
+      "totalPreguntas": 3,
+      "detalle": [
+        {
+          "preguntaId": "e66295e2-e38b-40a4-ab82-9d4f503cdf0a",
+          "respuestaUsuario": 0,
+          "respuestaCorrecta": 0,
+          "esCorrecta": true
+        },
+        {
+          "preguntaId": "0c2f4a3f-3218-4ee9-bade-a4551bdf9d99",
+          "respuestaUsuario": 1,
+          "respuestaCorrecta": 1,
+          "esCorrecta": true
+        },
+        {
+          "preguntaId": "16d3e88d-9ef2-43b8-bfe8-a1563b9d4be8",
+          "respuestaUsuario": 3,
+          "respuestaCorrecta": 2,
+          "esCorrecta": false
+        }
+      ],
+      "fechaCompletado": "2026-09-22T14:02:10.366Z"
+    }
+  },
+  {
+    "id": "7483b4f0-f223-40e7-b7e4-641e45f842c1",
+    "empleadoId": "emp-001",
+    "capacitacionId": "0ae7fab5-6c38-405e-8537-d0499cea3c57",
+    "estado": "aprobada",
+    "fechaAsignacion": "2026-09-16T21:20:06.269Z",
+    "resultado": {
+      "puntaje": 100,
+      "correctas": 3,
+      "totalPreguntas": 3,
+      "detalle": [
+        {
+          "preguntaId": "e66295e2-e38b-40a4-ab82-9d4f503cdf0a",
+          "respuestaUsuario": 0,
+          "respuestaCorrecta": 0,
+          "esCorrecta": true
+        },
+        {
+          "preguntaId": "0c2f4a3f-3218-4ee9-bade-a4551bdf9d99",
+          "respuestaUsuario": 1,
+          "respuestaCorrecta": 1,
+          "esCorrecta": true
+        },
+        {
+          "preguntaId": "16d3e88d-9ef2-43b8-bfe8-a1563b9d4be8",
+          "respuestaUsuario": 2,
+          "respuestaCorrecta": 2,
+          "esCorrecta": true
+        }
+      ],
+      "fechaCompletado": "2026-09-17T21:31:04.131Z"
+    }
+  },
+  {
+    "id": "0797d82b-0b12-4d85-b77d-d434a80b87e7",
+    "empleadoId": "emp-005",
+    "capacitacionId": "f9384b57-ddc6-4be5-8d77-de40543eae7f",
+    "estado": "pendiente",
+    "fechaAsignacion": "2026-09-17T21:29:35.087Z",
+    "resultado": null
+  }
+]
